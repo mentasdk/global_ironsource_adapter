@@ -1,0 +1,89 @@
+//
+//  DemoInterstitialAdDelegate.m
+//  LevelPlayDemo
+//
+//  Copyright © 2021-2025 Unity Technologies. All rights reserved.
+//
+
+#import "DemoInterstitialAdDelegate.h"
+
+@implementation DemoInterstitialAdDelegate
+
+- (instancetype)initWithDelegate:(id<DemoViewControllerDelegate>)delegate {
+    self = [super init];
+    
+    if (self) {
+        _delegate = delegate;
+    }
+    
+    return self;
+}
+
+/**
+ Called after an interstitial has been loaded
+ @param adInfo The info of the ad.
+ */
+- (void)didLoadAdWithAdInfo:(LPMAdInfo *)adInfo {
+    logCallbackName(@"adInfo = %@", adInfo);
+    [self.delegate setEnablementForButton:ShowInterstitialButtonIdentifier
+                                   enable:YES];
+}
+
+/**
+ Called after an interstitial has attempted to load but failed.
+ @param adUnitId The ad unit id of the ad.
+ @param error The reason for the error
+ */
+- (void)didFailToLoadAdWithAdUnitId:(NSString *)adUnitId error:(NSError *)error {
+    logCallbackName(@"error = %@ | adUnitId = %@", error.localizedDescription, adUnitId);
+    [self.delegate setEnablementForButton:ShowInterstitialButtonIdentifier
+                                   enable:NO];
+}
+
+/**
+ Called after the ad info is updated. Available when another interstitial ad has loaded, and includes a higher CPM/Rate
+ @param adInfo The info of the ad.
+ */
+- (void)didChangeAdInfo:(LPMAdInfo *)adInfo {
+    logCallbackName(@"adInfo = %@", adInfo);
+    [self.delegate setEnablementForButton:ShowInterstitialButtonIdentifier
+                                   enable:NO];
+}
+
+/**
+ Called after an interstitial has been displayed.
+ This is the indication for impression.
+ @param adInfo The info of the ad.
+ */
+- (void)didDisplayAdWithAdInfo:(LPMAdInfo *)adInfo {
+    logCallbackName(@"adInfo = %@", adInfo);
+    [self.delegate setEnablementForButton:ShowInterstitialButtonIdentifier
+                                   enable:NO];
+}
+
+/**
+ Called after an interstitial has attempted to show but failed.
+ @param adInfo The info of the ad.
+ @param error The reason for the error.
+ */
+- (void)didFailToDisplayAdWithAdInfo:(LPMAdInfo *)adInfo error:(NSError *)error {
+    logCallbackName(@"error = %@ | adInfo = %@", error.localizedDescription, adInfo);
+}
+
+/**
+ Called after an interstitial has been clicked.
+ @param adInfo The info of the ad.
+ */
+- (void)didClickAdWithAdInfo:(LPMAdInfo *)adInfo {
+    logCallbackName(@"adInfo = %@", adInfo);
+}
+
+/**
+ Called after an interstitial has been dismissed.
+ @param adInfo The info of the ad.
+ */
+- (void)didCloseAdWithAdInfo:(LPMAdInfo *)adInfo {
+    logCallbackName(@"adInfo = %@", adInfo);
+}
+
+@end
