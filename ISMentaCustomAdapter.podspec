@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ISMentaCustomAdapter'
-    s.version          = '1.00.01'
+    s.version          = '1.0.01'
     s.summary          = 'ISMentaCustomAdapter.podspec.'
     s.description      = 'This is the ISMentaCustomAdapter.podspec. Please proceed to https://www.mentamob.com for more information.'
     s.homepage         = 'https://github.com/mentasdk/global_ironsource_adapter.git'
