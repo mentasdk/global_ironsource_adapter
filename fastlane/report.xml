@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.00014">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: gym" time="20.046257">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: chmod +x ./pgyer_upload.sh" time="0.00332">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: ./pgyer_upload.sh -k 9a57e69885455c0dd7c80c02f6d438a5 ../Build/LevelPlayDemo.ipa" time="4.870762">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

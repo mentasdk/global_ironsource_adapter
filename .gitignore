@@ -1,2 +1,5 @@
 .DS_Store
 Pods
+Build
+LevelPlayDemo.xcworkspace
+*.xcuserstate

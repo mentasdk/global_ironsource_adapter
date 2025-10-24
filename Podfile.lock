@@ -6,24 +6,24 @@ PODS:
   - IronSourceSDK/AdQuality (9.0.0.0):
     - IronSourceAdQualitySDK (~> 9.0.0)
   - IronSourceSDK/Ads (9.0.0.0)
-  - ISVlionCustomAdapter (1.00.01):
+  - ISMentaCustomAdapter (1.00.01):
     - IronSourceSDK
-    - MentaBaseGlobal (~> 1.0.24)
-    - MentaMediationGlobal (~> 1.0.24)
-    - MentaVlionGlobal (~> 1.0.24)
-    - MentaVlionGlobalAdapter (~> 1.0.24)
-  - MentaBaseGlobal (1.0.24)
-  - MentaMediationGlobal (1.0.24):
-    - MentaBaseGlobal (~> 1.0.24)
-  - MentaVlionGlobal (1.0.24):
-    - MentaBaseGlobal (~> 1.0.24)
-  - MentaVlionGlobalAdapter (1.0.24):
-    - MentaMediationGlobal (~> 1.0.24)
-    - MentaVlionGlobal (~> 1.0.24)
+    - MentaBaseGlobal (~> 1.0.25)
+    - MentaMediationGlobal (~> 1.0.25)
+    - MentaVlionGlobal (~> 1.0.25)
+    - MentaVlionGlobalAdapter (~> 1.0.25)
+  - MentaBaseGlobal (1.0.25)
+  - MentaMediationGlobal (1.0.25):
+    - MentaBaseGlobal (~> 1.0.25)
+  - MentaVlionGlobal (1.0.25):
+    - MentaBaseGlobal (~> 1.0.25)
+  - MentaVlionGlobalAdapter (1.0.25):
+    - MentaMediationGlobal (~> 1.0.25)
+    - MentaVlionGlobal (~> 1.0.25)
 
 DEPENDENCIES:
   - IronSourceSDK
-  - ISVlionCustomAdapter (from `.`)
+  - ISMentaCustomAdapter (from `.`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -35,18 +35,18 @@ SPEC REPOS:
     - MentaVlionGlobalAdapter
 
 EXTERNAL SOURCES:
-  ISVlionCustomAdapter:
+  ISMentaCustomAdapter:
     :path: "."
 
 SPEC CHECKSUMS:
   IronSourceAdQualitySDK: b34d46a52db89ac9d9d4169ceb41f44421e07606
   IronSourceSDK: b64660084bc4b162f30a4e846f7b763ce0074664
-  ISVlionCustomAdapter: 363106e849544a25bec5efc889b12ef6a46a3db1
-  MentaBaseGlobal: b0e33929f167d98b23217e7d8007fe8f3678bafa
-  MentaMediationGlobal: e98d2d04dddfd0d1f1271acb1e3318c9c7ce8b3c
-  MentaVlionGlobal: 286f6466b67bc1c7f3ca9dac184d7b440ff18a99
-  MentaVlionGlobalAdapter: 4fa7d54fc7887eed3778e6d78fff9007c8e152fa
+  ISMentaCustomAdapter: 0a2eab6084fbd5fb6e91be6f7cc5fa02b589cc91
+  MentaBaseGlobal: 2d768f571fe4cc0659c396e1cc7ae3d88a674aaa
+  MentaMediationGlobal: ae7760e737ecd00f526c3302da6c2a1886e08235
+  MentaVlionGlobal: 6bcc67174a7140641df15a31c8b64da43dc44259
+  MentaVlionGlobalAdapter: 2fb245cefdc1976374c029389f86d56936ef3fa5
 
-PODFILE CHECKSUM: 267ce1fa53da8a5bc123b94eab04252dce4f3d89
+PODFILE CHECKSUM: e8e7dc7230ff53fd608751da369e38c3d94f36a8
 
 COCOAPODS: 1.16.2
