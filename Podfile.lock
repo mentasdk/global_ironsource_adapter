@@ -6,7 +6,7 @@ PODS:
   - IronSourceSDK/AdQuality (9.0.0.0):
     - IronSourceAdQualitySDK (~> 9.0.0)
   - IronSourceSDK/Ads (9.0.0.0)
-  - ISVLionCustomAdapter (1.0.01):
+  - ISVlionCustomAdapter (1.0.01):
     - IronSourceSDK
     - MentaBaseGlobal (~> 1.0.25)
     - MentaMediationGlobal (~> 1.0.25)
@@ -23,7 +23,7 @@ PODS:
 
 DEPENDENCIES:
   - IronSourceSDK
-  - ISVLionCustomAdapter (from `.`)
+  - ISVlionCustomAdapter (from `.`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -35,18 +35,18 @@ SPEC REPOS:
     - MentaVlionGlobalAdapter
 
 EXTERNAL SOURCES:
-  ISVLionCustomAdapter:
+  ISVlionCustomAdapter:
     :path: "."
 
 SPEC CHECKSUMS:
   IronSourceAdQualitySDK: b34d46a52db89ac9d9d4169ceb41f44421e07606
   IronSourceSDK: b64660084bc4b162f30a4e846f7b763ce0074664
-  ISVLionCustomAdapter: b76cd02a84612c32cc6cc25137abe832bcc63c10
+  ISVlionCustomAdapter: f526c965c02ccc463ad98ad597a6a9e29e0d726d
   MentaBaseGlobal: 2d768f571fe4cc0659c396e1cc7ae3d88a674aaa
   MentaMediationGlobal: ae7760e737ecd00f526c3302da6c2a1886e08235
   MentaVlionGlobal: 6bcc67174a7140641df15a31c8b64da43dc44259
   MentaVlionGlobalAdapter: 2fb245cefdc1976374c029389f86d56936ef3fa5
 
-PODFILE CHECKSUM: 95aa405e717453f1c91203d51577964afb8ec06e
+PODFILE CHECKSUM: 267ce1fa53da8a5bc123b94eab04252dce4f3d89
 
 COCOAPODS: 1.16.2

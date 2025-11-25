@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-    s.name             = 'ISVLionCustomAdapter'
-    s.version          = '1.0.01'
-    s.summary          = 'ISVLionCustomAdapter.podspec.'
-    s.description      = 'This is the ISVLionCustomAdapter.podspec. Please proceed to https://www.mentamob.com for more information.'
+    s.name             = 'ISVlionCustomAdapter'
+    s.version          = '1.0.03'
+    s.summary          = 'ISVlionCustomAdapter.podspec.'
+    s.description      = 'This is the ISVlionCustomAdapter.podspec. Please proceed to https://www.mentamob.com for more information.'
     s.homepage         = 'https://github.com/mentasdk/global_ironsource_adapter.git'
     s.license          = "Custom"
     s.author           = { 'mentasdk' => 'mentasdk.vip@gmail.com' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.weak_frameworks = 'WebKit', 'AdSupport'
     s.static_framework = true
   
-    s.source_files = 'ISVLionCustomAdapter/**/*'
+    s.source_files = 'ISVlionCustomAdapter/**/*'
 
     s.dependency 'MentaBaseGlobal',         '~> 1.0.25'
     s.dependency 'MentaMediationGlobal',    '~> 1.0.25'

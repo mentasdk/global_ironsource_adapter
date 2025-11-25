@@ -6,6 +6,6 @@ target 'LevelPlayDemo' do
   #use_frameworks!
 pod 'IronSourceSDK'
   # Pods for LevelPlayDemo
-  pod 'ISVLionCustomAdapter', :path => '.'
+  pod 'ISVlionCustomAdapter', :path => '.'
 
 end
