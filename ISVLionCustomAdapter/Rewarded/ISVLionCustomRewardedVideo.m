@@ -1,14 +1,14 @@
 //
-//  ISVlionCustomRewardedVideo.m
-//  ISVlionCustomAdapter
+//  ISVLionCustomRewardedVideo.m
+//  ISVLionCustomAdapter
 //
 //  Created by zhoubf on 2025/10/22.
 //
 
-#import "ISVlionCustomRewardedVideo.h"
+#import "ISVLionCustomRewardedVideo.h"
 #import <MentaMediationGlobal/MentaMediationGlobal-umbrella.h>
 
-@interface ISVlionCustomRewardedVideo () <MentaMediationRewardVideoDelegate>
+@interface ISVLionCustomRewardedVideo () <MentaMediationRewardVideoDelegate>
 
 @property (nonatomic, strong) MentaMediationRewardVideo *rewardedVideo;
 @property (nonatomic, weak) id<ISRewardedVideoAdDelegate> delegate;
@@ -16,7 +16,7 @@
 @end
 
 
-@implementation ISVlionCustomRewardedVideo
+@implementation ISVLionCustomRewardedVideo
 
 - (void)loadAdWithAdData:(nonnull ISAdData *)adData
                 delegate:(nonnull id<ISRewardedVideoAdDelegate>)delegate {

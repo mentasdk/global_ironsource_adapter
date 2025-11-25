@@ -1,14 +1,14 @@
 //
-//  ISVlionCustomInterstitial.m
-//  ISVlionCustomAdapter
+//  ISVLionCustomInterstitial.m
+//  ISVLionCustomAdapter
 //
 //  Created by zhoubf on 2025/10/22.
 //
 
-#import "ISVlionCustomInterstitial.h"
+#import "ISVLionCustomInterstitial.h"
 #import <MentaMediationGlobal/MentaMediationGlobal-umbrella.h>
 
-@interface ISVlionCustomInterstitial () <MentaMediationInterstitialDelegate>
+@interface ISVLionCustomInterstitial () <MentaMediationInterstitialDelegate>
 
 @property (nonatomic, strong) MentaMediationInterstitial *interstitialAd;
 @property (nonatomic, weak) id<ISInterstitialAdDelegate> delegate;
@@ -16,7 +16,7 @@
 @end
 
 
-@implementation ISVlionCustomInterstitial
+@implementation ISVLionCustomInterstitial
 
 - (void)loadAdWithAdData:(nonnull ISAdData *)adData
                 delegate:(nonnull id<ISInterstitialAdDelegate>)delegate {

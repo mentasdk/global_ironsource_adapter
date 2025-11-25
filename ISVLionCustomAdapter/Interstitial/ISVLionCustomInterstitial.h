@@ -1,6 +1,6 @@
 //
-//  ISVlionCustomBanner.h
-//  ISVlionCustomAdapter
+//  ISVLionCustomInterstitial.h
+//  ISVLionCustomAdapter
 //
 //  Created by zhoubf on 2025/10/22.
 //
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ISVlionCustomBanner : ISBaseBanner
+@interface ISVLionCustomInterstitial : ISBaseInterstitial
 
 @end
 

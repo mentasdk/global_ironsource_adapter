@@ -1,14 +1,14 @@
 //
-//  ISVlionCustomBanner.m
-//  ISVlionCustomAdapter
+//  ISVLionCustomBanner.m
+//  ISVLionCustomAdapter
 //
 //  Created by zhoubf on 2025/10/22.
 //
 
-#import "ISVlionCustomBanner.h"
+#import "ISVLionCustomBanner.h"
 #import <MentaMediationGlobal/MentaMediationGlobal-umbrella.h>
 
-@interface ISVlionCustomBanner () <MentaMediationBannerDelegate>
+@interface ISVLionCustomBanner () <MentaMediationBannerDelegate>
 
 @property (nonatomic, strong) MentaMediationBanner *bannerAd;
 @property (nonatomic, strong) ISBannerSize *size;
@@ -17,7 +17,7 @@
 @end
 
 
-@implementation ISVlionCustomBanner
+@implementation ISVLionCustomBanner
 
 - (void)loadAdWithAdData:(nonnull ISAdData *)adData
           viewController:(UIViewController *)viewController

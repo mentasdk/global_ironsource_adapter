@@ -1,14 +1,14 @@
 //
-//  ISVlionCustomAdapter.m
-//  ISVlionCustomAdapter
+//  ISVLionCustomAdapter.m
+//  ISVLionCustomAdapter
 //
 //  Created by zhoubf on 2025/10/22.
 //
 
-#import "ISVlionCustomAdapter.h"
+#import "ISVLionCustomAdapter.h"
 #import <MentaMediationGlobal/MentaMediationGlobal-umbrella.h>
 
-@implementation ISVlionCustomAdapter
+@implementation ISVLionCustomAdapter
 
 -(void)init:(ISAdData *)adData delegate:(id<ISNetworkInitializationDelegate>)delegate {
     MentaAdSDK *instance = MentaAdSDK.shared;
